@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Ashraf | UI/UX Designer</title>
+    <meta
+      name="description"
+      content="Mohamed Ashraf — UI/UX Designer. Clean, user-centered digital experiences for individuals and startups."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mohamed Ashraf | UI/UX Designer" />
+    <meta property="og:description" content="Clean, user-centered digital experiences." />
+    <meta property="og:type" content="website" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Header -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Mohamed Ashraf</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+            <span class="sr-only">Toggle menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav-menu" id="navMenu">
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact" class="nav-cta">Contact</a>
+          </div>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span class="theme-icon" aria-hidden="true">🌓</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="badge">UI/UX Designer • Junior</p>
+            <h1>
+              I design <span class="accent">clean</span>, user-centered digital experiences
+              that help individuals and startups ship with confidence.
+            </h1>
+            <p class="lead">
+              From research and wireframes to UI and prototypes, I focus on clarity, usability,
+              and design systems that scale.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View My Work</a>
+              <a class="btn ghost" href="#contact">Contact Me</a>
+            </div>
+
+            <div class="hero-links" aria-label="Social links">
+              <a class="chip" href="https://www.behance.net/" target="_blank" rel="noreferrer">Behance</a>
+              <a class="chip" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="chip" href="https://dribbble.com/" target="_blank" rel="noreferrer">Dribbble</a>
+              <a class="chip" href="mailto:yourname@email.com">Email</a>
+              <a class="chip" href="https://wa.me/20XXXXXXXXXX" target="_blank" rel="noreferrer">WhatsApp</a>
+            </div>
+          </div>
+
+          <!-- Hero Card -->
+          <div class="hero-card">
+            <div class="card">
+              <div class="card-top">
+                <div class="avatar" aria-hidden="true">MA</div>
+                <div>
+                  <p class="card-title">Mohamed Ashraf</p>
+                  <p class="card-subtitle">UI/UX Designer</p>
+                </div>
+              </div>
+
+              <div class="card-stats">
+                <div class="stat">
+                  <p class="stat-label">Focus</p>
+                  <p class="stat-value">UX + UI</p>
+                </div>
+                <div class="stat">
+                  <p class="stat-label">Style</p>
+                  <p class="stat-value">Clean & Corporate</p>
+                </div>
+                <div class="stat">
+                  <p class="stat-label">Mode</p>
+                  <p class="stat-value">Light/Dark</p>
+                </div>
+              </div>
+
+              <div class="card-note">
+                <p>
+                  I build concise case studies and fast project previews—then link to full
+                  details on Behance.
+                </p>
+              </div>
+
+              <a class="btn small" href="#projects">Explore Projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <h2>Selected Projects</h2>
+            <p class="muted">
+              Quick previews with a direct link to the full case study on Behance.
+            </p>
+          </div>
+
+          <div class="toolbar">
+            <div class="filters" role="tablist" aria-label="Project filters">
+              <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+              <button class="filter" data-filter="app" role="tab" aria-selected="false">App</button>
+              <button class="filter" data-filter="landing" role="tab" aria-selected="false">Landing Page</button>
+              <button class="filter" data-filter="redesign" role="tab" aria-selected="false">Redesign</button>
+            </div>
+
+            <label class="search">
+              <span class="sr-only">Search projects</span>
+              <input id="projectSearch" type="search" placeholder="Search projects..." />
+            </label>
+          </div>
+
+          <div class="grid projects-grid" id="projectsGrid">
+            <!-- Project Card 1 -->
+            <article class="project-card" data-tags="app">
+              <div class="project-thumb">
+                <div class="thumb-inner">
+                  <span class="pill">Mobile App</span>
+                  <h3>Fintech Wallet App</h3>
+                  <p>Research → flows → UI → prototype focused on clarity and trust.</p>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div class="meta-left">
+                  <p class="meta-title">Fintech Wallet App</p>
+                  <p class="meta-sub">UX Research • UI Design • Prototype</p>
+                </div>
+                <a class="btn small primary" href="https://www.behance.net/" target="_blank" rel="noreferrer">
+                  View Case
+                </a>
+              </div>
+            </article>
+
+            <!-- Project Card 2 -->
+            <article class="project-card" data-tags="landing">
+              <div class="project-thumb">
+                <div class="thumb-inner">
+                  <span class="pill">Landing Page</span>
+                  <h3>Startup Landing</h3>
+                  <p>Clean layout, clear hierarchy, and conversion-focused sections.</p>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div class="meta-left">
+                  <p class="meta-title">Startup Landing</p>
+                  <p class="meta-sub">UI Design • Responsive Layout</p>
+                </div>
+                <a class="btn small primary" href="https://www.behance.net/" target="_blank" rel="noreferrer">
+                  View Case
+                </a>
+              </div>
+            </article>
+
+            <!-- Project Card 3 -->
+            <article class="project-card" data-tags="redesign">
+              <div class="project-thumb">
+                <div class="thumb-inner">
+                  <span class="pill">Redesign</span>
+                  <h3>E-commerce Redesign</h3>
+                  <p>Improved navigation, product discovery, and checkout experience.</p>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div class="meta-left">
+                  <p class="meta-title">E-commerce Redesign</p>
+                  <p class="meta-sub">UX Audit • Wireframes • UI</p>
+                </div>
+                <a class="btn small primary" href="https://www.behance.net/" target="_blank" rel="noreferrer">
+                  View Case
+                </a>
+              </div>
+            </article>
+
+            <!-- Project Card 4 -->
+            <article class="project-card" data-tags="app">
+              <div class="project-thumb">
+                <div class="thumb-inner">
+                  <span class="pill">Mobile App</span>
+                  <h3>Fitness Coach App</h3>
+                  <p>Design system + components for consistent, scalable UI.</p>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div class="meta-left">
+                  <p class="meta-title">Fitness Coach App</p>
+                  <p class="meta-sub">Design System • UI Kit • Prototype</p>
+                </div>
+                <a class="btn small primary" href="https://www.behance.net/" target="_blank" rel="noreferrer">
+                  View Case
+                </a>
+              </div>
+            </article>
+
+            <!-- Project Card 5 -->
+            <article class="project-card" data-tags="landing">
+              <div class="project-thumb">
+                <div class="thumb-inner">
+                  <span class="pill">Landing Page</span>
+                  <h3>SaaS Product Page</h3>
+                  <p>Corporate tone with strong hierarchy and accessible layout.</p>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div class="meta-left">
+                  <p class="meta-title">SaaS Product Page</p>
+                  <p class="meta-sub">UI • Accessibility • Responsive</p>
+                </div>
+                <a class="btn small primary" href="https://www.behance.net/" target="_blank" rel="noreferrer">
+                  View Case
+                </a>
+              </div>
+            </article>
+
+            <!-- Project Card 6 -->
+            <article class="project-card" data-tags="redesign">
+              <div class="project-thumb">
+                <div class="thumb-inner">
+                  <span class="pill">Redesign</span>
+                  <h3>Dashboard Redesign</h3>
+                  <p>Better information architecture and cleaner data hierarchy.</p>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div class="meta-left">
+                  <p class="meta-title">Dashboard Redesign</p>
+                  <p class="meta-sub">IA • UX • UI</p>
+                </div>
+                <a class="btn small primary" href="https://www.behance.net/" target="_blank" rel="noreferrer">
+                  View Case
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="note">
+            <p class="muted">
+              Tip: Replace the links with your Behance case studies, and update titles/descriptions
+              to match each project.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div>
+            <h2>About</h2>
+            <p class="lead">
+              I’m a Junior UI/UX Designer passionate about crafting clean and meaningful digital experiences.
+            </p>
+            <p class="muted">
+              My journey started with curiosity about how users interact with products—not just how they look,
+              but how they feel and function. I enjoy turning complex ideas into simple, usable interfaces
+              by focusing on research, clear flows, and thoughtful UI decisions.
+            </p>
+
+            <div class="values">
+              <div class="value">
+                <h3>User-first thinking</h3>
+                <p class="muted">Every decision is grounded in user needs and context.</p>
+              </div>
+              <div class="value">
+                <h3>Clarity over complexity</h3>
+                <p class="muted">Simple paths, clear hierarchy, and purposeful screens.</p>
+              </div>
+              <div class="value">
+                <h3>Design systems mindset</h3>
+                <p class="muted">Reusable components for consistency and scalability.</p>
+              </div>
+            </div>
+          </div>
+
+          <aside class="about-card">
+            <div class="card">
+              <h3>What I do</h3>
+              <ul class="list">
+                <li>UX Research & usability testing</li>
+                <li>Wireframing & user flows</li>
+                <li>UI design & prototyping</li>
+                <li>Design systems & components</li>
+              </ul>
+
+              <h3 class="mt">Tools</h3>
+              <div class="tools">
+                <span class="tag">Figma</span>
+                <span class="tag">FigJam</span>
+                <span class="tag">Adobe XD</span>
+                <span class="tag">Photoshop</span>
+                <span class="tag">Illustrator</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head">
+            <h2>Skills</h2>
+            <p class="muted">Short, clear, and relevant to startup work.</p>
+          </div>
+
+          <div class="grid skills-grid">
+            <div class="skill">
+              <h3>UX Research</h3>
+              <p class="muted">User interviews, survey insights, problem framing.</p>
+            </div>
+            <div class="skill">
+              <h3>Wireframing</h3>
+              <p class="muted">Flows, IA, low-to-high fidelity wireframes.</p>
+            </div>
+            <div class="skill">
+              <h3>UI Design</h3>
+              <p class="muted">Clean corporate UI with cold color palettes.</p>
+            </div>
+            <div class="skill">
+              <h3>Prototyping</h3>
+              <p class="muted">Interactive prototypes for validation and handoff.</p>
+            </div>
+            <div class="skill">
+              <h3>Usability Testing</h3>
+              <p class="muted">Task-based testing and iterative improvements.</p>
+            </div>
+            <div class="skill">
+              <h3>Design Systems</h3>
+              <p class="muted">Components, tokens, and consistency at scale.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact</h2>
+            <p class="lead">Have a project in mind or want to work together?</p>
+            <p class="muted">Send a message and I’ll get back to you as soon as possible.</p>
+
+            <div class="contact-links">
+              <a class="chip" href="mailto:yourname@email.com">Email</a>
+              <a class="chip" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="chip" href="https://www.behance.net/" target="_blank" rel="noreferrer">Behance</a>
+              <a class="chip" href="https://dribbble.com/" target="_blank" rel="noreferrer">Dribbble</a>
+              <a class="chip" href="https://wa.me/20XXXXXXXXXX" target="_blank" rel="noreferrer">WhatsApp</a>
+            </div>
+          </div>
+
+          <form class="form card" id="contactForm" autocomplete="on">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+
+            <button class="btn primary" type="submit">Send Message</button>
+            <p class="muted tiny" id="formHint">
+              This form uses a simple mailto fallback by default. You can connect EmailJS later.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Mohamed Ashraf. All rights reserved.</p>
+        <a class="back-top" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
